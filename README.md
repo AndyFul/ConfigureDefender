@@ -26,7 +26,9 @@ c) PowerShell cmdlets (set-mppreference, add-mppreference, remove-mppreference, 
 .
 
 Normally, Windows Defender stores most settings under the key (owned by SYSTEM): 
+
 HKLM\SOFTWARE\Microsoft\Windows Defender
+
 They can be changed when using Defender Security Center or PowerShell cmdlets. 
 
 .
