@@ -1,4 +1,3 @@
-
 # ConfigureDefender
 Utility for configuring Windows 10 built-in Defender antivirus settings.
 
@@ -13,9 +12,13 @@ Some important remarks on the possible ways used to configure Defender (for adva
 
 
 Windows Defender settings are stored in the Windows Registry and most of them are not avaiable form Windows Defender Security Center. They can be managed via:
+
 a) Group Policy Management Console (gpedit.msc, not avaiable in Windows Home edition),
+
 b) Direct Registry editing (manual, *.reg files, scripts).
+
 c) PowerShell cmdlets (set-mppreference, add-mppreference, remove-mppreference, only Windows 8.1+).
+
 
 
 Normally, Windows Defender stores most settings under the key (owned by SYSTEM): 
@@ -23,11 +26,13 @@ HKLM\SOFTWARE\Microsoft\Windows Defender
 They can be changed when using Defender Security Center or PowerShell cmdlets. 
 
 
+
 Administrators can use Group Policy Management Console to override those settings. Group Policy settings are stored under another key (owned by ADMINISTRATORS): 
 
 HKLM\SOFTWARE\Policies\Microsoft\Windows Defender
 
 Group Policy settings do not delete the normal Defender settings.
+
 
 
 The Direct Registry editing is usualy made, under the second key (the first requires System Rights).
@@ -46,15 +51,18 @@ c) After some hours, those settings are automatically and silently back-overwrit
 d) Those settings cannot be changed via Defender Security Center (or PowerShell cmdlets), even if they are visible there (like folders and applications related to Controlled Folder Access).
 
 
+
 In Windows 8.1+ Home edition, one can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing.
 This may confuse some users, so ConfigureDefender utility can remove the settings made via Direct Registry editing under the key: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender .
 That is required, because those settings would override ConfigureDefender settings.
+
 
 
 ConfigureDefender utility may be used also on Windows 10 Proffessional and Enterprise editions, if Administrator did not applied Defender policies via Group Policy Management Console. Normally all those policies are set to 'Not configured'. So, if Administrator applied Defender policies, then they must be set first to 'Not configured' before using ConfigureDefender. Those settings can be found in Group Policy Management Console: 
 
 Computer configuration >> Policies >> Administrative templates >> Windows components >> Windows Defender Antivirus.
 The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Windows Defender Exploit Guard, should be examined. 
+
 
 
 The below list shows which settings are available on different Windows versions:
