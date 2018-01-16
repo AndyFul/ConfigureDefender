@@ -68,24 +68,16 @@ The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Win
 The below list shows which settings are available on different Windows versions:
 
 
-At least Windows 8.1:
-
-Real-time Monitoring, Behavior Monitoring, Scan all downloaded files and attachments, Reporting Level (MAPS membership level), Average CPU Load while scanning
+At least Windows 8.1: Real-time Monitoring, Behavior Monitoring, Scan all downloaded files and attachments, Reporting Level (MAPS membership level), Average CPU Load while scanning
 
 
-At least Windows 10:
-
-Automatic Sample Submission, PUA Protection, Cloud Protection Level (Default), Cloud Check Time Limit.
+At least Windows 10: Automatic Sample Submission, PUA Protection, Cloud Protection Level (Default), Cloud Check Time Limit.
 
 
-At least Windows 10, version 1607 (Anniversary Update): 
-
-Block At First Seen.
+At least Windows 10, version 1607 (Anniversary Update): Block At First Seen.
 
 
-At least Windows 10, version 1703 (Anniversary Update):
-
-Cloud Protection Level (High level for Windows Pro and Enterprise), Cloud Check Time Limit (Extended to 60s).
+At least Windows 10, version 1703 (Anniversary Update): Cloud Protection Level (High level for Windows Pro and Enterprise), Cloud Check Time Limit (Extended to 60s).
 
 
 At least Windows 10, version 1709 (Creators Fall Update):
