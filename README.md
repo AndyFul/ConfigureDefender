@@ -1,3 +1,4 @@
+
 # ConfigureDefender
 Utility for configuring Windows 10 built-in Defender antivirus settings.
 
@@ -5,6 +6,7 @@ Utility for configuring Windows 10 built-in Defender antivirus settings.
 
 ConfigureDefender utility is a GUI application to view and configure important Defender settings on Windows 10. It mostly uses PowerShell cmdlets (with a few exceptions). Furthermore, the user can apply one of three predefined settings: default, high, and child protection. Some settings require restarting the computer.
 The child protection is mostly set to block anything suspicious via Attack Surface Reduction, Controlled Folder Access, SmartScreen (set to block) and 0-tolerance cloud level - also Defender Security Center is hidden.
+
 ConfigureDefender utility is a part of Hard_Configurator project, but it can be used as a standalone application.
 
 
