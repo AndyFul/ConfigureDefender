@@ -1,3 +1,4 @@
+
 # ConfigureDefender
 Utility for configuring Windows 10 built-in Defender antivirus settings.
 
@@ -7,15 +8,13 @@ The child protection is mostly set to block anything suspicious via Attack Surfa
 ConfigureDefender utility is a part of Hard_Configurator project, but it can be used as a standalone application.
 
 
+
 Some important remarks on the possible ways used to configure Defender (for advanced users).
 
 
 Windows Defender settings are stored in the Windows Registry and most of them are not avaiable form Windows Defender Security Center. They can be managed via:
-
 a) Group Policy Management Console (gpedit.msc, not avaiable in Windows Home edition),
-
 b) Direct Registry editing (manual, *.reg files, scripts).
-
 c) PowerShell cmdlets (set-mppreference, add-mppreference, remove-mppreference, only Windows 8.1+).
 
 
