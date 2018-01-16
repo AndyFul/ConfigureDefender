@@ -18,9 +18,9 @@ ConfigureDefender utility is a part of Hard_Configurator project, but it can be 
 Some important remarks on the possible ways used to configure Defender (for advanced users).
 
 
-Windows Defender settings are stored in the Windows Registry and most of them are not avaiable form Windows Defender Security Center. They can be managed via:
+Windows Defender settings are stored in the Windows Registry and most of them are not available form Windows Defender Security Center. They can be managed via:
 
-a) Group Policy Management Console (gpedit.msc, not avaiable in Windows Home edition),
+a) Group Policy Management Console (gpedit.msc, not available in Windows Home edition),
 
 b) Direct Registry editing (manual, *.reg files, scripts).
 
@@ -44,16 +44,16 @@ Group Policy settings do not delete the normal Defender settings.
 
 .
 
-The Direct Registry editing is usualy made, under the second key (the first requires System Rights).
+The Direct Registry editing is usually made, under the second key (the first requires System Rights).
 Applying Defender settings by Direct Registry editing under the key: 
 
 HKLM\SOFTWARE\Policies\Microsoft\Windows Defender
 
-is not recommended, on Windows editions which support Group Policy Management Console (for example PRO and Enterpise editions), because of some cons:
+is not recommended, on Windows editions which support Group Policy Management Console (for example PRO and Enterprise editions), because of some cons:
 
 a) Those settings are not recognized by Group Policy Management Console.
 
-b) They can temporarily overwrite Group Policy Management Console setup in the Registry, because they share the same Registry keys. Those changes are not permament, because Group Policy configuration is not overwritten.
+b) They can temporarily overwrite Group Policy Management Console setup in the Registry, because they share the same Registry keys. Those changes are not permanent, because Group Policy configuration is not overwritten.
 
 c) After some hours, those settings are automatically and silently back-overwritten by Group Policy Refresh feature.
 
@@ -69,14 +69,14 @@ That is required, because those settings would override ConfigureDefender settin
 
 .
 
-ConfigureDefender utility may be used also on Windows 10 Proffessional and Enterprise editions, if Administrator did not applied Defender policies via Group Policy Management Console. Normally all those policies are set to 'Not configured'. So, if Administrator applied Defender policies, then they must be set first to 'Not configured' before using ConfigureDefender. Those settings can be found in Group Policy Management Console: 
+ConfigureDefender utility may be used also on Windows 10 Professional and Enterprise editions, if Administrator did not apply Defender policies via Group Policy Management Console. Normally all those policies are set to 'Not configured'. So, if Administrator applied Defender policies, then they must be set first to 'Not configured' before using ConfigureDefender. Those settings can be found in Group Policy Management Console: 
 
 Computer configuration >> Policies >> Administrative templates >> Windows components >> Windows Defender Antivirus.
 The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Windows Defender Exploit Guard, should be examined. 
 
 .
 
-The below list shows which settings are available on different Windows versions:
+The below list shows which settings are available in different Windows versions:
 
 
 At least Windows 8.1: Real-time Monitoring, Behavior Monitoring, Scan all downloaded files and attachments, Reporting Level (MAPS membership level), Average CPU Load while scanning
@@ -91,5 +91,5 @@ At least Windows 10, version 1607 (Anniversary Update): Block At First Seen.
 At least Windows 10, version 1703 (Anniversary Update): Cloud Protection Level (High level for Windows Pro and Enterprise), Cloud Check Time Limit (Extended to 60s).
 
 
-At least Windows 10, version 1709 (Creators Fall Update): Attack Surface Reduction, Cloud Protection Level (extendend Levels for Windows Pro and Enterprise), Controlled Folder Access, Network Protection.
+At least Windows 10, version 1709 (Creators Fall Update): Attack Surface Reduction, Cloud Protection Level (extended Levels for Windows Pro and Enterprise), Controlled Folder Access, Network Protection.
 
