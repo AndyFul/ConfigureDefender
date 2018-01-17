@@ -2,7 +2,7 @@
 Utility for configuring Windows 10 built-in Defender antivirus settings.
 
 
-It is a portable utility. Simply, unzip te ConfigureDefender.zip (rigth-click on the file and select Extract All), next run ConfigureDefender.exe from the extracted folder.
+It is a portable utility. Simply, unzip te ConfigureDefender.zip (rigth-click on the file and select Extract All), next run ConfigureDefender_x32.exe (Windows 32-bit) or ConfigureDefender_x64 (Windows 64-bit) from the extracted folder.
 
 .
 
