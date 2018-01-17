@@ -1,7 +1,8 @@
 # ConfigureDefender 
 
-Utility for configuring Windows 10 built-in Defender antivirus settings. 
-It is a portable utility. Simply, unzip the ConfigureDefender.zip (rigth-click on the file and select Extract All), next run ConfigureDefender_x32.exe (Windows 32-bit) or ConfigureDefender_x64 (Windows 64-bit) from the extracted folder. 
+Utility for configuring Windows 10 built-in Defender antivirus settings. It is a portable utility. 
+
+Simply, unzip the ConfigureDefender.zip (rigth-click on the file and select Extract All), next run ConfigureDefender_x32.exe (Windows 32-bit) or ConfigureDefender_x64 (Windows 64-bit) from the extracted folder. 
  
 ConfigureDefender utility is a GUI application to view and configure important Defender settings on Windows 10. It mostly uses PowerShell cmdlets (with a few exceptions). Furthermore, the user can apply one of three predefined settings: default, high, and child protection. Some settings require restarting the computer. 
  
