@@ -45,7 +45,6 @@ The Direct Registry editing is usually made, under the second key (the first req
 Applying Defender settings by Direct Registry editing under the key:  
 
 HKLM\SOFTWARE\Policies\Microsoft\Windows Defender 
-
 is not recommended, on Windows editions which support Group Policy Management Console (for example PRO and Enterprise editions), because of some cons: 
 
 a) Those settings are not recognized by Group Policy Management Console. 
@@ -75,11 +74,13 @@ The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Win
 . 
 
  
-The below list shows which settings are available in different Windows versions: 
+The below list shows which Defender settings are available in different Windows versions: 
 
 .
  
-At least Windows 8.1: Real-time Monitoring, Behavior Monitoring, Scan all downloaded files and attachments, Reporting Level (MAPS membership level), Average CPU Load while scanning 
+At least Windows 8.1: Real-time Monitoring, Behavior Monitoring, Scan all downloaded files and attachments, Reporting Level (MAPS membership level), Average CPU Load while scanning. But, there are problems with configuring them via PowerShell 4.0 that is built into Windows 8.1. This is the reason why ConfigureDefender can support those settings only in Windows 10+ with built-in PowerShell 5+.
+
+
 
 .
  
