@@ -2,6 +2,8 @@
 
 Utility for configuring Windows 10 built-in Defender antivirus settings. It is a portable utility. 
 
+In the version 1.0.1.0, ASR mitigations introduced in Windows ver. 1803, were added. 
+
 Download and next run ConfigureDefender_x32.exe (for Windows 32-bit) or ConfigureDefender_x64 (for Windows 64-bit). 
  
 ConfigureDefender utility is a GUI application to view and configure important Defender settings on Windows 10. It mostly uses PowerShell cmdlets (with a few exceptions). Furthermore, the user can apply one of three predefined settings: default, high, and child protection. Some settings require restarting the computer. 
