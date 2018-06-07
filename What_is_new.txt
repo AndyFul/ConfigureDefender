@@ -1,6 +1,7 @@
 Version 1.0.1.1
 1. Corrected a minor bug related to unnecessary folder exclusion for the ASR mitigation that does not support exclusions.
-2. In <Defender high settings> the ASR mitigation 'Use advanced protection against ransomware' is set to ON, and 'Controlled Folder Access' is set to Audit.
+2. In <Defender high settings> the ASR mitigation 'Use advanced protection against ransomware' is set to ON, and 'Controlled Folder
+Access' is set to Audit.
 
 
 Version 1.0.1.0
