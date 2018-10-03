@@ -1,15 +1,17 @@
 # ConfigureDefender 
 
 Utility for configuring Windows 10 built-in Defender antivirus settings. It is a portable utility. 
-
-In the version 1.0.1.0, ASR mitigations introduced in Windows ver. 1803, were added. 
-
-Download and next run ConfigureDefender_x32.exe (for Windows 32-bit) or ConfigureDefender_x64 (for Windows 64-bit). 
- 
+.
+In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
+With this option ConfigureDefender would be classified as a hack tool.
+.
+Installation.
+ConfigureDefender is a portable application. Download and next run ConfigureDefender_x32.exe (for Windows 32-bit) or ConfigureDefender_x64 (for Windows 64-bit). 
+.
 ConfigureDefender utility is a GUI application to view and configure important Defender settings on Windows 10. It mostly uses PowerShell cmdlets (with a few exceptions). Furthermore, the user can apply one of three predefined settings: default, high, and child protection. Some settings require restarting the computer. 
- 
+. 
 The child protection is mostly set to block anything suspicious via Attack Surface Reduction, Controlled Folder Access, SmartScreen (set to block) and 0-tolerance cloud level - also Defender Security Center is hidden. 
-
+.
 ConfigureDefender utility is a part of Hard_Configurator project, but it can be used as a standalone application.  
 
 .
