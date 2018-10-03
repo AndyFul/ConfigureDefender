@@ -6,11 +6,15 @@ Utility for configuring Windows 10 built-in Defender antivirus settings. It is a
 In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
 With this option ConfigureDefender would be classified as a hack tool.
 
+.
 
 Installation.
 
 ConfigureDefender is a portable application. Download and next run ConfigureDefender_x32.exe (for Windows 32-bit) or ConfigureDefender_x64 (for Windows 64-bit). 
 
+.
+
+Short program description
 
 ConfigureDefender utility is a GUI application to view and configure important Defender settings on Windows 10. It mostly uses PowerShell cmdlets (with a few exceptions). Furthermore, the user can apply one of three predefined settings: default, high, and child protection. Some settings require restarting the computer. 
 
