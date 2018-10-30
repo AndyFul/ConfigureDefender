@@ -3,8 +3,16 @@
 Utility for configuring Windows 10 built-in Defender antivirus settings. It is a portable utility. 
 
 
+In the version 2.0.0.0 two new WD ASR rules were added:
+
+1. Block only Office communication applications from creating child processes (includes Outlook protection).
+
+2. Block Adobe Reader from creating child processes
+
+.
+
 In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
-With this option ConfigureDefender would be classified as a hack tool.
+With this option ConfigureDefender would be classified as a hack-tool.
 
 .
 
@@ -71,7 +79,7 @@ d) Those settings cannot be changed via Defender Security Center (or PowerShell 
  
 . 
 
-In Windows 8.1+ Home edition, one can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing. This may confuse some users, so ConfigureDefender utility can remove the settings made via Direct Registry editing under the key:  
+In Windows 10 Home edition, one can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing. This may confuse some users, so ConfigureDefender utility can remove the settings made via Direct Registry editing under the key:  
  
 HKLM\SOFTWARE\Policies\Microsoft\Windows Defender 
  
