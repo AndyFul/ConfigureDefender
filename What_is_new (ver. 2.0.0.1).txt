@@ -1,14 +1,18 @@
 Version 2.0.0.1
 1. Added icon.
-2. Added the button <Defender Security Log>, which allows to see last 200 Windows Defender events. It also
+2. Added the section PROTECTION LEVELS which includes the renamed buttons: 
+<Defender default settings>  ----> <DEFAULT>
+<Defender high settings      ----> <HIGH>
+<Child Protection>           ----> <MAX>
+3. Added the button <Defender Security Log>, which allows to see last 200 Windows Defender events. It also
 shows the names of ASR rules alongside GUIDs.
-3. Added the splash alert when applying time-consuming features.
-4. Renamed option "Reporting Level (MAPS membership level)" to "Cloud-delivered Protection" (the name used
+4. Added the splash alert when applying time-consuming features.
+5. Renamed option "Reporting Level (MAPS membership level)" to "Cloud-delivered Protection" (the name used
 in the WD Security Center) and renamed its "Advanced" setting to "ON".
-5. Extended the abilities of <REFRESH> button.
-6. Updated the changes made by Microsoft to allow file & folder exclusions for some additional ASR rules.
-7. Corrected the issue with closing the application.
-8. Extended the help.
+6. Extended the abilities of <REFRESH> button.
+7. Updated the changes made by Microsoft to allow file & folder exclusions for some additional ASR rules.
+8. Corrected the issue with closing the application.
+9. Extended the help.
 
 Version 2.0.0.0
 Added two new WD ASR rules:
