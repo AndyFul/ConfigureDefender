@@ -2,7 +2,7 @@ Version 2.0.0.1
 1. Added icon.
 2. Added the section PROTECTION LEVELS which includes the renamed buttons: 
 <Defender default settings>  ----> <DEFAULT>
-<Defender high settings      ----> <HIGH>
+<Defender high settings>     ----> <HIGH>
 <Child Protection>           ----> <MAX>
 3. Added the button <Defender Security Log>, which allows to see last 200 Windows Defender events. It also
 shows the names of ASR rules alongside GUIDs.
