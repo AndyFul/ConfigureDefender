@@ -96,17 +96,12 @@ The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Win
 . 
 
  
-The below list shows which Defender settings are available in different Windows versions: 
+The below list shows which ConfigureDefender settings are available in different Windows 10 versions: 
 
 .
  
-At least Windows 8.1: Real-time Monitoring, Behavior Monitoring, Scan all downloaded files and attachments, Reporting Level (MAPS membership level), Average CPU Load while scanning. But, there are problems with configuring them via PowerShell 4.0 that is built into Windows 8.1. This is the reason why ConfigureDefender can support those settings only in Windows 10+ with built-in PowerShell 5+.
 
-
-
-.
- 
-At least Windows 10: Automatic Sample Submission, PUA Protection, Cloud Protection Level (Default), Cloud Check Time Limit. 
+At least Windows 10: Real-time Monitoring, Behavior Monitoring, Scan all downloaded files and attachments, Reporting Level (MAPS membership level), Average CPU Load while scanning, Automatic Sample Submission, PUA Protection, Cloud Protection Level (Default), Cloud Check Time Limit. 
 
 .
  
