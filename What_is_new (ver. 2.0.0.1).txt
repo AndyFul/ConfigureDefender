@@ -4,7 +4,7 @@ Version 2.0.0.1
 <Defender default settings>  ----> <DEFAULT>
 <Defender high settings>     ----> <HIGH>
 <Child Protection>           ----> <MAX>
-3. Added the button <Defender Security Log>, which allows to see last 200 Windows Defender events. It also
+3. Added the button <Defender Security Log>, which allows seeing last 200 Windows Defender events. It also
 shows the names of ASR rules alongside GUIDs.
 4. Added the splash alert when applying time-consuming features.
 5. Renamed option "Reporting Level (MAPS membership level)" to "Cloud-delivered Protection" (the name used
