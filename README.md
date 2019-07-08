@@ -42,7 +42,7 @@ Windows Defender settings are stored in the Windows Registry and most of them ar
 
  b) Direct Registry editing (manual, *.reg files, scripts). 
  
- c) PowerShell cmdlets (set-mppreference, add-mppreference, remove-mppreference, only Windows 8.1+). 
+ c) PowerShell cmdlets (set-mppreference, add-mppreference, remove-mppreference, PowerShell 5.0). 
 
 . 
 
