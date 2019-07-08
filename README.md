@@ -18,7 +18,7 @@ With this option ConfigureDefender would be classified as a hack-tool.
 
 Installation.
 
-ConfigureDefender is a portable application. Download and next run ConfigureDefender_x32.exe (for Windows 32-bit) or ConfigureDefender_x64 (for Windows 64-bit). 
+ConfigureDefender is a portable application. Download and next run ConfigureDefender_x86.exe (for Windows 32-bit) or ConfigureDefender_x64 (for Windows 64-bit). 
 
 .
 
