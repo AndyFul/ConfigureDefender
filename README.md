@@ -2,6 +2,13 @@
 
 Utility for configuring Windows 10 built-in Defender antivirus settings. It is a portable utility. 
 
+Warning!
+Setting SmartScreen to Block via ConfigureDefender may prevent updating ConfigureDefender to the new version. This can happen, for
+example, when using MAX Protection Level. It is recommended to change SmartScreen settings to 'Warn' before making an update, or change
+the Protection Level to HIGH. 
+It is also possible to unblock the executable and force SmartScreen to ignore it. Just do a right-click on ConfigureDefender executable
+and choose Properties. Look at the Security entry in the bottom of the window and tick Unblock.
+
 
 In the version 2.0.0.0 two new WD ASR rules were added:
 
