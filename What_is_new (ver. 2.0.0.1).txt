@@ -1,3 +1,10 @@
+Version 2.0.1.1
+1. Added additional ASR rule: "Block persistence through WMI event subscription".
+2. Minor GUI improvements.
+
+Version 2.0.1.0
+The ConfigureDefender executables are now digitally signed with Certum Open Source Code Signing certificate.
+
 Version 2.0.0.1
 1. Added icon.
 2. Added the section PROTECTION LEVELS which includes the renamed buttons: 
