@@ -9,13 +9,6 @@ the Protection Level to HIGH.
 It is also possible to unblock the executable and force SmartScreen to ignore it. Just do a right-click on ConfigureDefender executable
 and choose Properties. Look at the Security entry in the bottom of the window and tick Unblock.
 
-
-In the version 2.0.0.0 two new WD ASR rules were added:
-
-1. Block only Office communication applications from creating child processes (includes Outlook protection).
-
-2. Block Adobe Reader from creating child processes
-
 .
 
 In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
