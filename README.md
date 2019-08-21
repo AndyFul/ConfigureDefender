@@ -1,4 +1,4 @@
-# ConfigureDefender 
+# ConfigureDefender ver. 2.0.1.1 August 2019
 
 Utility for configuring Windows 10 built-in Defender antivirus settings. It is a portable utility. 
 
