@@ -111,3 +111,6 @@ At least Windows 10, version 1703 (Anniversary Update):
 At least Windows 10, version 1607 (Anniversary Update): 
 * Block At First Seen. 
 
+
+## Support
+A discussion around the ConfigureDefender can be found [here on MalwareTips](https://malwaretips.com/threads/configuredefender-utility-for-windows-10.79039/).
