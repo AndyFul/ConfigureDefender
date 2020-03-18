@@ -28,17 +28,20 @@ Windows Defender settings are stored in the Windows Registry and most of them ar
 ### Windows Defender Registry Keys
 Normally, Windows Defender stores most settings under the key (owned by SYSTEM):  
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender`
+
 The registry keys can be changed while using Defender Security Center or PowerShell cmdlets.
 
 ### Overwriting settings via Group Policy Management Console (GPO)
 Administrators can use Windows Group Policy Management Console (GPO) utility to override certain Windows Defender registry values. Group Policy settings are stored under another key (owned by ADMINISTRATORS):  
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender`
+
 Keep in mind that GPOs do not delete the normal Defender settings!
 
 ### Manually changing WD setting via registry 
 Registry editing is usually made, under the second key (see below), the first requires system admin-rights. 
 Applying Defender settings by directly manipulating the registry under:
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+
 is not recommended on Windows 10 editions which officially supporting Group Policy Management Console e.g. PRO & Enterprise editions. 
 * Those settings are not recognized by Group Policy Management Console.
 * They can temporarily overwrite Group Policy Management Console setup in the Registry, because they share the same Registry keys. Those changes are not permanent, because Group Policy configuration is not overwritten. 
@@ -48,6 +51,7 @@ is not recommended on Windows 10 editions which officially supporting Group Poli
 ### Windows 10 Home Editions
 Under Windows 10 Home editions, someone can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing method. This may confuse some users, but ConfigureDefender utility can remove the settings made via under the following path: 
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` 
+
 This is required, because those settings would override ConfigureDefender settings.
 
 ### ConfigureDefender utility and GPOs
