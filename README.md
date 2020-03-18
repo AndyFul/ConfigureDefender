@@ -3,12 +3,10 @@
 ## Overview
 ConfigureDefender is a small utility for configuring Windows 10 built-in Defender Anti-Virus settings. ConfigureDefender utility is a part of Hard_Configurator project, but it can be used as a standalone application (portable).  
 
-.
 ### ConfigureDefender version 1.1.1.1 and below notice
 In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
 With this option ConfigureDefender would be classified as a hack-tool.
 
-.
 ## Installation
 ConfigureDefender is a portable application, no installation is needed. Download and run ConfigureDefender_x86.exe for Windows 32-bit, or ConfigureDefender_x64 for Windows 64-bit.
 .
