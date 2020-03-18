@@ -55,10 +55,10 @@ Under Windows 10 Home editions, someone can configure Defender settings (outside
 This is required, because those settings would override ConfigureDefender settings.
 
 ### ConfigureDefender utility and GPOs
-ConfigureDefender utility can be used on Windows 10 Professional & Enterprise editions, if an Administrator did not apply Defender policies via Group Policy Management Console. Normally, all those policies are by default set to 'Not configured'. If an administrator applied Defender policies manually or changed it he must first ensure that they are changed back to 'Not configured' before he is able to use the ConfigureDefender utility. Those settings can be found in Group Policy Management Console:
+ConfigureDefender utility can be used on Windows 10 Professional & Enterprise editions, if an Administrator did not apply Defender policies via Group Policy Management Console. Normally, all those policies are by default set to 'Not configured'. If an administrator applied or changed Defender policies manually, he must first ensure that they are changed back to 'Not configured' before using the ConfigureDefender utility. Those settings can be found in Group Policy Management Console:
 * `Computer configuration` >> `Policies` >> `Administrative templates` >> `Windows components` >> `Windows Defender Antivirus`. 
  
-The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Windows Defender Exploit Guard, should be inspected before you use the utility, if some settings are switchedm ensure they are set back to the defaults. 
+The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Windows Defender Exploit Guard, should be inspected before using the utility, if some settings are switched ensure they are set back to the defaults. 
 
 ## Available Windows Defender settings on different Windows 10 versions
 The below list shows which ConfigureDefender settings are available in different Windows 10 versions:
@@ -70,21 +70,18 @@ The below list shows which ConfigureDefender settings are available in different
 * Reporting Level (MAPS membership level)
 * Average CPU Load while scanning
 * Automatic Sample Submission
-* Potential unwanted applications (short: PUA Protection)
+* Potentially unwanted applications (short: PUA Protection)
 * Cloud Protection Level (Default)
 * Cloud Check Time Limit 
 
-### Introduced since Build 1607 and below
-At least Windows 10, version 1607 (Anniversary Update): 
+### Introduced since Build 1607 and below (Anniversary Update)
 * Block At First Sight (BAFS).
 
-### Introduced since Build 1703
-At least Windows 10, version 1703 (Anniversary Update): 
+### Introduced since Build 1703 (Creators Update)
 * Cloud Protection Level (High level for Windows Pro and Enterprise)
-* Cloud Check Time Limit (Extended to 60s). 
+* Cloud Check Time Limit (Extended to 60s)
 
-### Introduced since Build 1709
-At least Windows 10, version 1709 (Fall Creators Update): 
+### Introduced since Build 1709 (Fall Creators Update)
 * Attack Surface Reduction
 * Cloud Protection Level (extended Levels for Windows Pro and Enterprise)
 * Controlled Folder Access
