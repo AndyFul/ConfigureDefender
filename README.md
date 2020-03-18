@@ -49,7 +49,7 @@ is not recommended (!) on Windows 10 editions which officially supporting Group 
 * Those settings cannot be changed via Defender Security Center (or PowerShell cmdlets), even if they are visible (like folders and applications related for Controlled Folder Access).
  
 ### Windows 10 Home Editions
-Under Windows 10 Home editions, someone can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing method. This may confuse some users, but ConfigureDefender utility can remove the settings made via under the following path: 
+Under Windows 10 Home editions, someone can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing method. This may confuse some users, but ConfigureDefender utility can remove the settings made under the following path: 
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` 
 
 This is required, because those settings would override ConfigureDefender settings.
