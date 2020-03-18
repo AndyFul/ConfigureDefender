@@ -74,7 +74,7 @@ The below list shows which ConfigureDefender settings are available in different
 * Cloud Protection Level (Default)
 * Cloud Check Time Limit 
 
-### Introduced since Build 1607 and below (Anniversary Update)
+### Introduced since Build 1607 (Anniversary Update)
 * Block At First Sight (BAFS).
 
 ### Introduced since Build 1703 (Creators Update)
