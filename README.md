@@ -42,7 +42,7 @@ Registry editing is usually made, under the second key (see below), the first re
 Applying Defender settings by directly manipulating the registry under:
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
 
-is not recommended on Windows 10 editions which officially supporting Group Policy Management Console e.g. PRO & Enterprise editions. 
+is not recommended (!) on Windows 10 editions which officially supporting Group Policy Management Console e.g. PRO & Enterprise editions. 
 * Those settings are not recognized by Group Policy Management Console.
 * They can temporarily overwrite Group Policy Management Console setup in the Registry, because they share the same Registry keys. Those changes are not permanent, because Group Policy configuration is not overwritten. 
 * After some hours, those settings are automatically and silently back-overwritten by Group Policy Refresh feature. 
