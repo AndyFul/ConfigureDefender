@@ -8,7 +8,7 @@ In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because o
 With this option ConfigureDefender would be classified as a hack-tool.
 
 ## Installation
-ConfigureDefender is a portable application, no installation is needed. Download and run ConfigureDefender_x86.exe for Windows 32-bit, or ConfigureDefender_x64 for Windows 64-bit.
+ConfigureDefender is a portable application, no installation is needed. Download and run ConfigureDefender.exe - the installer can be run both on Windows 32-bit and Windows 64-bit.
 
 ## Short program description
 ConfigureDefender utility is a small GUI application to view and configure important Defender settings on Windows 10. It uses PowerShell cmdlets, with a few exceptions to change the Windows Defender settings. Furthermore, the user can apply one of three pre-defined protection levels: `Default`, `High`, and `Max`. Changing one of the protection levels requires a reboot in order to take effect.
