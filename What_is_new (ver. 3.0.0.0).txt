@@ -1,6 +1,6 @@
 Version 3.0.0.0
 1. Corrected a bug related to the error when "Defender Security" Log is empty.
-2. Removed events Id=1117 and Id=5007 from Defender Security Log.
+2. Removed the event Id=1117 from Defender Security Log.
 3. Extended the maximal number of entries in the Log to 300.
 4. Extended the "Cloud Time Check Limit" in HIGH Protection Level from 10s to 20s. 
 5. Added DLL hijacking protection - 64-bit and 32-bit installers are wrapped into one installer by NSISS.
