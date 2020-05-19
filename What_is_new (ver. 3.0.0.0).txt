@@ -1,3 +1,8 @@
+Version 3.0.0.1
+1. Added tip text feature to some buttons (<REFRESH, <DEFAULT>, <HIGH>, <MAX>).
+2. Removed the feature of adding an icon to the taskbar notification area.
+3. Removed event Id=5007 from Defender Security Log.
+
 Version 3.0.0.0
 1. Corrected a bug related to the error when "Defender Security" Log is empty.
 2. Removed the event Id=1117 from Defender Security Log.
