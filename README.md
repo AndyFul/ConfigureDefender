@@ -1,7 +1,8 @@
-# Current ConfigureDefender version: 3.0.0.1 - May 2020
+# Current ConfigureDefender version: 3.0.0.1 - June 2020
 
 ## Overview
-ConfigureDefender is a small utility for configuring Windows 10 built-in Defender Anti-Virus settings. ConfigureDefender utility is a part of Hard_Configurator project, but it can be used as a standalone application (portable).  
+ConfigureDefender is a small utility for configuring Windows 10 built-in Defender Anti-Virus settings. ConfigureDefender utility is a part of Hard_Configurator project, but it can be used as a standalone application (portable).
+In June 2020 the executables were additionally signed with new certificate valid until June 2021.
 
 ### ConfigureDefender version 1.1.1.1 and below notice
 In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
