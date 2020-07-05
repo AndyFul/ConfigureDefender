@@ -4,7 +4,7 @@ THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTH
 
 Distribution
 This software may be freely distributed (but not sell) as long as no modifications are made to them.
-The applications use Nulsoft Scriptable Install System which has additional Software License Terms.
+The applications use Nullsoft Scriptable Install System which has additional Software License Terms.
 
 I would like to thank the members of https://www.autoitscript.com/forum/ , especially: Ascend4nt, Erik Pilsits, FredAI, Melba23,
 trancexx, Valuater, and many others, for sharing their insightful code.
