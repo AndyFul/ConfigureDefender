@@ -3,7 +3,7 @@ THIS SOFTWARE IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IM
 THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING  THIS SOFTWARE.
 
 Distribution
-These applications may be freely distributed (but not sell) as long as no modification are made to them.
+These applications may be freely distributed (but not sell) as long as no modifications are made to them.
 These applications use Nulsoft Scriptable Install System which has additional Software License Terms.
 
 I would like to thank the members of https://www.autoitscript.com/forum/ , especially: Ascend4nt, Erik Pilsits, FredAI, Melba23,
