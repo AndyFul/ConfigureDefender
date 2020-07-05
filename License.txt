@@ -1,10 +1,12 @@
 ConfigureDefender Disclaimer of Warranty
-THIS SOFTWARE IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE IT AT YOUR OWN RISK. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING  THIS SOFTWARE.
+THIS SOFTWARE IS DISTRIBUTED "AS IS". NO WARRANTY OF ANY KIND IS EXPRESSED OR IMPLIED. YOU USE IT AT YOUR OWN RISK. 
+THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING  THIS SOFTWARE.
 
 Distribution
 ConfigureDefender application may be freely distributed (but not sell) as long as no modification is made to it.
 This application uses Nulsoft Scriptable Install System which have additional Software License Terms.
 
-I would like to thank the members of https://www.autoitscript.com/forum/ , especially: Ascend4nt, Erik Pilsits, FredAI, Melba23, trancexx, Valuater, and many others, for sharing their insightful code. This application uses Nulsoft Scriptable Install System which have additional Software License Terms.
+I would like to thank the members of https://www.autoitscript.com/forum/ , especially: Ascend4nt, Erik Pilsits, FredAI, Melba23,
+trancexx, Valuater, and many others, for sharing their insightful code.
 
 Andrzej Pluta (@Andy Ful)
