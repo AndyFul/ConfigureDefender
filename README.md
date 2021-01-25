@@ -43,7 +43,7 @@ Administrators can use Windows Group Policy Management Console (GPO) utility to 
 
 Keep in mind that GPOs do not delete the normal Defender settings!
 
-### Manually changing WD setting via registry 
+### Manually changing WD settings via registry 
 Registry editing is usually made, under the second key (see below), the first requires system admin-rights. 
 Applying Defender settings by directly manipulating the registry under:
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
@@ -88,7 +88,7 @@ The below list shows which ConfigureDefender settings are available in different
 * Cloud Check Time Limit (Extended to 60s)
 
 ### Introduced since Build 1709 (Fall Creators Update)
-* Attack Surface Reduction
-* Cloud Protection Level (extended Levels for Windows Pro and Enterprise)
+* Attack Surface Reduction rules
+* Cloud Protection Level (extended Levels)
 * Controlled Folder Access
 * Network Protection
