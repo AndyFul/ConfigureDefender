@@ -22,7 +22,7 @@ ConfigureDefender utility is a small GUI application to view and configure impor
 ### Using the Maximum Protection Level
 The MAX Protection Level blocks anything suspicious via Attack Surface Reduction, Controlled Folder Access, SmartScreen (set to block) and cloud level (set to block) - Defender Security Center is hidden.  
  
-### Advance Users
+### Advanced Users
 Some important remarks on the possible ways used to configure Defender (for advanced users). 
 
 Windows Defender settings are stored in the Windows Registry and most of them are not available form Windows Defender Security Center. They can be managed via:
