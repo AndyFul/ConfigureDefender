@@ -6,7 +6,11 @@ In June 2020 the executables were additionally signed with new certificate valid
 
 ## Useful links
 https://medium.com/palantir/microsoft-defender-attack-surface-reduction-recommendations-a5c7d41c3cf8
+
 https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction
+
+https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/Demystifying%20ASR%20rules
+
 
 ### ConfigureDefender version 1.1.1.1 and below notice
 In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
