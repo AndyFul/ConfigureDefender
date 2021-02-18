@@ -4,6 +4,10 @@
 ConfigureDefender is a small utility for configuring Windows 10 built-in Defender Anti-Virus settings. It is a part of Hard_Configurator project (including source files), but it can be used as a standalone application (portable).
 In June 2020 the executables were additionally signed with new certificate valid until June 2021.
 
+# ConfigureDefender sources
+https://github.com/AndyFul/Hard_Configurator/tree/master/src/Hard_Configurator/ConfigureDefender
+
+
 ## Useful links
 https://medium.com/palantir/microsoft-defender-attack-surface-reduction-recommendations-a5c7d41c3cf8
 
