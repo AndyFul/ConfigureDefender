@@ -8,8 +8,8 @@ Version 3.0.1.0 beta 2
    settings are enabled in DEFAULT, HIGH, INTERACTIVE, and MAX Protection Levels.
 7. Redesigned slightly the layout of the Exploit Guard section.
 8. Added support for Windows 11.
-9. Added support for Id=1120 to Defender Security Log. If this event is logged by Windows Event Log, then
-   it will be also included in ConfigureDefender.
+9. Added support for Id=1120 to Defender Security Log. If this event is logged by Windows Event Log,
+   then it will be also included in ConfigureDefender.
 10.Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some 
    important disk sectors will be still protected (Id = 1127).
 
