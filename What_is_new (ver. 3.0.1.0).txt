@@ -8,7 +8,9 @@ Version 3.0.1.0 beta 2
    settings are enabled in DEFAULT, HIGH, INTERACTIVE, and MAX Protection Levels.
 7. Redesigned slightly the layout of the Exploit Guard section.
 8. Added support for Windows 11.
-9. Added support for event Id=1120. If the proper policy is applied, then this event can be logged by Windows. If the user has applied manually this policy by registry tweak or GPO, then the events related to Id=1120 will be also included in the "Defender Security Log".
+9. Added support for event Id=1120. If the proper policy is applied, then this event can be logged by Windows.
+   If the user has applied manually this policy by registry tweak or GPO, then the events related to Id=1120 
+   will be also included in the "Defender Security Log".
 10.Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some 
    important disk sectors will be still protected (Id = 1127).
 
