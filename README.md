@@ -1,4 +1,9 @@
-# Current ConfigureDefender version: 3.0.0.1 - June 2020
+# ConfigureDefender version: 3.0.1.0 beta2 - August 2021
+
+Most important changes: Support for Windows 11, updated ASR rules, added Warning setting for ASR rules, added INTERACTIVE Protection Level. 
+https://github.com/AndyFul/ConfigureDefender/blob/master/What_is_new%20(ver.%203.0.1.0).txt
+
+# ConfigureDefender stable version: 3.0.0.1 - June 2020
 
 ## Overview
 ConfigureDefender is a small utility for configuring Windows 10 built-in Defender Anti-Virus settings. It is a part of Hard_Configurator project (including source files), but it can be used as a standalone application (portable).
