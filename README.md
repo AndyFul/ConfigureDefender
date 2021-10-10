@@ -2,6 +2,7 @@
 
 Most important changes: Support for Windows 11, updated ASR rules, added Warning setting for ASR rules, added INTERACTIVE Protection Level. 
 https://github.com/AndyFul/ConfigureDefender/blob/master/What_is_new%20(ver.%203.0.1.0).txt
+https://github.com/AndyFul/ConfigureDefender/raw/master/C_D_3010_beta2.exe
 
 # ConfigureDefender stable version: 3.0.0.1 - June 2020
 
