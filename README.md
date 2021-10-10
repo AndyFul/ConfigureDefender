@@ -69,10 +69,10 @@ Under Windows 10 Home editions, someone can configure Defender settings (outside
 This is required, because those settings would override ConfigureDefender settings.
 
 ### ConfigureDefender utility and GPOs
-ConfigureDefender utility can be used on Windows 10 Professional & Enterprise editions, if an Administrator did not apply Defender policies via Group Policy Management Console. Normally, all those policies are by default set to 'Not configured'. If an administrator applied or changed Defender policies manually, he must first ensure that they are changed back to 'Not configured' before using the ConfigureDefender utility. Those settings can be found in Group Policy Management Console:
-* `Computer configuration` >> `Policies` >> `Administrative templates` >> `Windows components` >> `Windows Defender Antivirus`. 
+ConfigureDefender utility can be used on Windows 10 Professional & Enterprise editions, if an Administrator did not apply Defender policies via Group Policy Management Console. Normally, all those policies are by default set to 'Not configured'. They can be found in Group Policy Management Console:
+* Computer configuration >> Policies >> Administrative templates >> Windows components >> Windows Defender Antivirus. 
  
-The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Windows Defender Exploit Guard, should be inspected before using the utility, if some settings are switched ensure they are set back to the defaults. 
+The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Windows Defender Exploit Guard, should be inspected before using ConfigureDefender. The corresponding policies have to be set to 'Not configured'. If not, then the GPO Refresh feature will override the settings applied via ConfigureDefender.
 
 ## Available Windows Defender settings on different Windows 10 versions
 The below list shows which ConfigureDefender settings are available in different Windows 10 versions:
