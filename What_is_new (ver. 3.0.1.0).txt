@@ -1,4 +1,4 @@
-Version 3.0.1.0 beta 2
+Version 3.0.1.0 (points 1-10 were already included in the beta 2 version)
 1. Added some useful information to the Help and manual.
 2. Added "Send All" setting to Automatic Sample Submission.
 3. Updated ASR rules (1 new rule added).
@@ -13,6 +13,7 @@ Version 3.0.1.0 beta 2
    will be also included in the "Defender Security Log".
 10.Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some 
    important disk sectors will be still protected (Id = 1127).
+11. Corrected a minor bug related to displaying the empty log.
 
 Version 3.0.0.1
 1. Added tip text feature to some buttons (<REFRESH, <DEFAULT>, <HIGH>, <MAX>).
