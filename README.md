@@ -8,7 +8,7 @@ ConfigureDefender is a small utility for configuring Windows 10 built-in Defende
 In June 2020 the executables were additionally signed with new certificate valid until June 2021.
 
 #### ConfigureDefender sources
-https://github.com/AndyFul/Hard_Configurator/tree/master/src/Hard_Configurator/ConfigureDefender
+https://github.com/AndyFul/Hard_Configurator/tree/master/src/
 
 
 ## Useful links
