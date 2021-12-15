@@ -28,7 +28,7 @@ ConfigureDefender is a portable application, no installation is needed. Download
 The ConfigureDefender.zip archive is not required for using ConfigureDefender, but it can be useful when one wants to remove the unnecessary ConfigureDefender entries in the taskbar notification area cache.
 
 ## Short program description
-ConfigureDefender utility is a small GUI application to view and configure important Defender settings on Windows 10. It uses PowerShell cmdlets (with a few exceptions) to change the Windows Defender settings. Furthermore, the user can apply one of three pre-defined protection levels: DEFAULT, HIGH, and MAX. Changing one of the protection levels requires a reboot in order to take effect.
+ConfigureDefender utility is a small GUI application to view and configure important Defender settings on Windows 10. It uses PowerShell cmdlets (with a few exceptions) to change the Windows Defender settings. Furthermore, the user can apply one of three pre-defined protection levels: DEFAULT, HIGH, INTERACTIVE, and MAX. Changing one of the protection levels requires a reboot in order to take effect.
 
 ### Using the Maximum Protection Level
 The MAX Protection Level blocks anything suspicious via Attack Surface Reduction, Controlled Folder Access, SmartScreen (set to block) and cloud level (set to block) - Defender Security Center is hidden. These settings are very restrictive and using them can produce many false positives even in the home environment. Such a setup is not recommended in the business environment.
