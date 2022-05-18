@@ -1,6 +1,6 @@
 # ConfigureDefender stable version 3.0.1.1 - May 2022
 
-Most important changes: Support for Windows 11
+Most important changes: Support for Windows Server 2019+
 https://github.com/AndyFul/ConfigureDefender/blob/master/What_is_new%20(ver.%203.0.1.1).txt
 
 ## Overview
