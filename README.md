@@ -4,8 +4,7 @@ Most important changes: Support for Windows Server 2019+
 https://github.com/AndyFul/ConfigureDefender/blob/master/What_is_new%20(ver.%203.0.1.1).txt
 
 ## Overview
-ConfigureDefender is a small utility for configuring Windows 10 built-in Defender Anti-Virus settings. It is a part of Hard_Configurator project (including source files), but it can be used as a standalone application (portable).
-In June 2020 the executables were additionally signed with new certificate valid until June 2021.
+ConfigureDefender is a small utility for configuring Windows 10/11 (and Windows Server) built-in Defender Anti-Virus settings. It is a part of Hard_Configurator project (including source files), but it can be used as a standalone application (portable).
 
 #### ConfigureDefender sources
 https://github.com/AndyFul/Hard_Configurator/tree/master/src/
@@ -19,19 +18,14 @@ https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-de
 https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/Demystifying%20ASR%20rules
 
 
-### ConfigureDefender version 1.1.1.1 and below notice
-In the version 1.1.1.1, the option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
-With this option ConfigureDefender would be classified as a hack-tool.
-
 ## Installation
 ConfigureDefender is a portable application, no installation is needed. Download and run the executable ConfigureDefender.exe - the application can be run both on Windows 32-bit and Windows 64-bit.
-The ConfigureDefender.zip archive is not required for using ConfigureDefender, but it can be useful when one wants to remove the unnecessary ConfigureDefender entries in the taskbar notification area cache.
 
 ## Short program description
-ConfigureDefender utility is a small GUI application to view and configure important Defender settings on Windows 10. It uses PowerShell cmdlets (with a few exceptions) to change the Windows Defender settings. Furthermore, the user can apply one of three pre-defined protection levels: DEFAULT, HIGH, INTERACTIVE, and MAX. Changing one of the protection levels requires a reboot in order to take effect.
+ConfigureDefender utility is a small GUI application to view and configure important Defender settings on Windows 10/11 and Windows Server 2019+. It uses PowerShell cmdlets (with a few exceptions) to change the Windows Defender settings. Furthermore, the user can apply one of three pre-defined protection levels: DEFAULT, HIGH, INTERACTIVE, and MAX. Changing one of the protection levels requires a reboot in order to take effect.
 
 ### Using the Maximum Protection Level
-The MAX Protection Level blocks anything suspicious via Attack Surface Reduction, Controlled Folder Access, SmartScreen (set to block) and cloud level (set to block) - Defender Security Center is hidden. These settings are very restrictive and using them can produce many false positives even in the home environment. Such a setup is not recommended in the business environment.
+The MAX Protection Level blocks anything suspicious via Attack Surface Reduction, Controlled Folder Access, SmartScreen (set to block) and cloud level (set to block). These settings are very restrictive and using them can produce many false positives even in the home environment. Such a setup is not recommended in the business environment.
  
 ### Advanced Users
 Some important remarks on the possible ways used to configure Defender (for advanced users). 
@@ -66,7 +60,7 @@ is not recommended (!) on Windows 10 editions which officially supporting Group 
 * Those settings cannot be changed via Defender Security Center (or PowerShell cmdlets), even if they are visible (like folders and applications related for Controlled Folder Access).
  
 ### Windows 10 Home Editions
-Under Windows 10 Home editions, someone can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing method. This may confuse some users, but ConfigureDefender utility can remove the settings made under the following path: 
+Under Windows Home editions, someone can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing method. This may confuse some users, but ConfigureDefender utility can remove the settings made under the policy path: 
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` 
 
 This is required, because those settings would override ConfigureDefender settings.
