@@ -1,3 +1,6 @@
+Version 3.0.1.1
+1. Added support for Windows Server 2019+
+
 Version 3.0.1.0 (points 1-10 were already included in the beta 2 version)
 1. Added some useful information to the Help and manual.
 2. Added "Send All" setting to Automatic Sample Submission.
