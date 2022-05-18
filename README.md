@@ -74,45 +74,8 @@ ConfigureDefender utility can be used on Windows Professional & Enterprise editi
 The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Windows Defender Exploit Guard, should be inspected before using ConfigureDefender. The corresponding policies have to be set to 'Not configured'. If not, then the GPO Refresh feature will override the settings applied via ConfigureDefender.
 
 ## Available Windows Defender settings on different Windows versions
-The below list shows which ConfigureDefender settings are available in different Windows 10 versions:
-
-### Windows ver. 1507
-* Real-time Monitoring
-* Behavior Monitoring
-* Scan all downloaded files and attachments
-* Reporting Level (MAPS membership level)
-* Average CPU Load while scanning
-* Automatic Sample Submission
-* Potentially unwanted applications (short: PUA Protection)
-* Cloud Protection Level (Default)
-* Cloud Check Time Limit 
-
-### Introduced in Windows ver. 1607 (Anniversary Update)
-* Block At First Sight (BAFS).
-
-### Introduced in Windows ver. 1703 (Creators Update)
-* Cloud Protection Level (High level for Windows Pro and Enterprise)
-* Cloud Check Time Limit (Extended to 60s)
-
-### Introduced in Windows ver. 1709 (Fall Creators Update)
-* Attack Surface Reduction rules
-* Cloud Protection Level (extended Levels)
-* Controlled Folder Access
-* Network Protection
-
-### Some ASR rules require Windows ver. 1803 or later:
-
-Windows ver. 1803:
-* Block credential stealing from the Windows local security authority subsystem (lsass.exe)
-* Block executable files from running unless they meet a prevalence, age, or trusted list criterion
-* Block process creations originating from PSExec and WMI commands
-* Use advanced protection against ransomware
-
-Windows ver. 1809:
-* Block Adobe Reader from creating child processes
-
-Windows ver. 1903:
-Block persistence through WMI event subscription
+Configuredefender requires Windows ver. 1809 or later.
+The ASR rule "Block persistence through WMI event subscription" requires Windows ver. 1903.
 
 See also:
 https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide
