@@ -75,7 +75,8 @@ The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Win
 
 ## Available Windows Defender settings on different Windows versions
 Configuredefender requires Windows ver. 1809 or later.
-The ASR rule "Block persistence through WMI event subscription" requires Windows ver. 1903.
+
+The ASR rule "Block persistence through WMI event subscription" requires Windows ver. 1903 or later.
 
 See also:
 https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide
