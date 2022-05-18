@@ -11,6 +11,8 @@ https://github.com/AndyFul/Hard_Configurator/tree/master/src/
 
 
 ## Useful links
+https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide
+
 https://medium.com/palantir/microsoft-defender-attack-surface-reduction-recommendations-a5c7d41c3cf8
 
 https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction
@@ -53,28 +55,28 @@ Registry editing is usually made, under the second key (see below), the first re
 Applying Defender settings by directly manipulating the registry under:
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
 
-is not recommended (!) on Windows 10 editions which officially supporting Group Policy Management Console e.g. PRO & Enterprise editions. 
+is not recommended (!) on Windows editions which officially support Group Policy Management Console e.g. PRO & Enterprise editions. 
 * Those settings are not recognized by Group Policy Management Console.
 * They can temporarily overwrite Group Policy Management Console setup in the Registry, because they share the same Registry keys. Those changes are not permanent, because Group Policy configuration is not overwritten. 
 * After some hours, those settings are automatically and silently back-overwritten by Group Policy Refresh feature. 
 * Those settings cannot be changed via Defender Security Center (or PowerShell cmdlets), even if they are visible (like folders and applications related for Controlled Folder Access).
  
-### Windows 10 Home Editions
+### Windows Home Editions
 Under Windows Home editions, someone can configure Defender settings (outside of the Defender Security Center), when using PowerShell cmdlets or via the manual Registry editing method. This may confuse some users, but ConfigureDefender utility can remove the settings made under the policy path: 
 * `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender` 
 
 This is required, because those settings would override ConfigureDefender settings.
 
 ### ConfigureDefender utility and GPOs
-ConfigureDefender utility can be used on Windows 10 Professional & Enterprise editions, if an Administrator did not apply Defender policies via Group Policy Management Console. Normally, all those policies are by default set to 'Not configured'. They can be found in Group Policy Management Console:
+ConfigureDefender utility can be used on Windows Professional & Enterprise editions, if an Administrator did not apply Defender policies via Group Policy Management Console. Normally, all those policies are by default set to 'Not configured'. They can be found in Group Policy Management Console:
 * Computer configuration >> Policies >> Administrative templates >> Windows components >> Windows Defender Antivirus. 
  
 The tabs: MAPS, MpEngine, Real-time Protection, Reporting, Scan, Spynet, and Windows Defender Exploit Guard, should be inspected before using ConfigureDefender. The corresponding policies have to be set to 'Not configured'. If not, then the GPO Refresh feature will override the settings applied via ConfigureDefender.
 
-## Available Windows Defender settings on different Windows 10 versions
+## Available Windows Defender settings on different Windows versions
 The below list shows which ConfigureDefender settings are available in different Windows 10 versions:
 
-### All Windows 10 versions
+### Windows ver. 1507
 * Real-time Monitoring
 * Behavior Monitoring
 * Scan all downloaded files and attachments
@@ -85,15 +87,32 @@ The below list shows which ConfigureDefender settings are available in different
 * Cloud Protection Level (Default)
 * Cloud Check Time Limit 
 
-### Introduced since Build 1607 (Anniversary Update)
+### Introduced in Windows ver. 1607 (Anniversary Update)
 * Block At First Sight (BAFS).
 
-### Introduced since Build 1703 (Creators Update)
+### Introduced in Windows ver. 1703 (Creators Update)
 * Cloud Protection Level (High level for Windows Pro and Enterprise)
 * Cloud Check Time Limit (Extended to 60s)
 
-### Introduced since Build 1709 (Fall Creators Update)
+### Introduced in Windows ver. 1709 (Fall Creators Update)
 * Attack Surface Reduction rules
 * Cloud Protection Level (extended Levels)
 * Controlled Folder Access
 * Network Protection
+
+### Some ASR rules require Windows ver. 1803 or later:
+
+Windows ver. 1803:
+* Block credential stealing from the Windows local security authority subsystem (lsass.exe)
+* Block executable files from running unless they meet a prevalence, age, or trusted list criterion
+* Block process creations originating from PSExec and WMI commands
+* Use advanced protection against ransomware
+
+Windows ver. 1809:
+* Block Adobe Reader from creating child processes
+
+Windows ver. 1903:
+Block persistence through WMI event subscription
+
+See also:
+https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide
