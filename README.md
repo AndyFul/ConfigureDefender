@@ -1,6 +1,6 @@
 
 
-# ConfigureDefender stable version 3.1.1.1 - May 2022
+# ConfigureDefender stable version 3.1.1.1 - JUly 2022
 
 No changes as compared to ver 3.0.1.1, except for adding updated certificate.
 https://github.com/AndyFul/ConfigureDefender/blob/master/What_is_new%20(ver.%203.1.1.1).txt
