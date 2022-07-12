@@ -2,7 +2,7 @@
 
 # ConfigureDefender stable version 3.1.1.1 - July 2022
 
-No changes as compared to ver 3.0.1.1, except for adding updated certificate.
+No changes as compared to ver 3.0.1.1, except for adding the updated certificate. In the ConfigureDefender window, this version is still described as 3.0.1.1. The code of x86 and x64 executables is identical in versions 3.0.1.1 and 3.1.1.1. But, because of adding the new certificate, the file hashes are different.
 https://github.com/AndyFul/ConfigureDefender/blob/master/What_is_new%20(ver.%203.1.1.1).txt
 
 ## Overview
