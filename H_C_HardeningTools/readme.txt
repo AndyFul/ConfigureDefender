@@ -6,7 +6,7 @@ ConfigureDefender - can activate many advanced Windows Defender settings.
 
 DocumentsAntiExploit - can be used to block macros and harden MS Office applications.
 
-FirewallHardening - can be used to block Windows Firewall outbound connections of many LOLBins and other executables chosen by the user. Please use "External BlockList" <Load> option to update the predefined BlockList entries (they are included in the file UpdateFirewallHardening2011.fwbl)
+FirewallHardening - can be used to block Windows Firewall outbound connections of many LOLBins and other executables chosen by the user. 
 
 RunBySmartScreen - can be used to safely run/open files.
 
