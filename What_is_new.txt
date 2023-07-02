@@ -1,7 +1,3 @@
-Version 3.0.1.1 (new certificate July 2023) - no functional changes.
-1. Added the updated certificate.
-
-
 Version 3.0.1.1 (new certificate July 2022) - no functional changes.
 1. Added the updated certificate.
 
