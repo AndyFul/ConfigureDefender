@@ -1,5 +1,6 @@
 Version 3.1.1.1 (new certificate July 2022) - no functional changes.
-1. Added the updated certificate.
+1. The application binaries are from version 3.0.1.1 + updated certificate. The application window still shows the older
+   version 3.0.1.1.
 
 Version 3.0.1.1
 1. Added support for Windows Server 2019+
