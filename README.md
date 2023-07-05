@@ -3,7 +3,7 @@
 # ConfigureDefender stable version 3.1.1.1 - July 2023
 
 No changes as compared to ver 3.0.1.1, except for adding the updated certificate. In the ConfigureDefender window, this version is still described as 3.0.1.1. The code of x86 and x64 executables is identical in versions 3.0.1.1 and 3.1.1.1. But, because of adding the new certificate, the file hashes are different.
-https://github.com/AndyFul/ConfigureDefender/blob/master/What_is_new%20(ver.%203.1.1.1).txt
+https://github.com/AndyFul/ConfigureDefender/blob/master/What_is_new.txt
 
 ## Overview
 ConfigureDefender is a small utility for configuring Windows 10/11 (and Windows Server) built-in Defender Anti-Virus settings. It is a part of Hard_Configurator project (including source files), but it can be used as a standalone application (portable).
