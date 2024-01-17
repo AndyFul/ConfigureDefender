@@ -1,3 +1,6 @@
+Version 4.0.0.0
+Added mouse-wheel scrolling.
+
 Version 3.1.1.1 (new certificate July 2023) - no functional changes.
 Version 3.1.1.1 (new certificate July 2022) - no functional changes.
 1. The current application binaries are from version 3.0.1.1 + updated certificate. The application window still shows the older
@@ -12,14 +15,14 @@ Version 3.0.1.0 (points 1-10 were already included in the beta 2 version)
 3. Updated ASR rules (1 new rule added).
 4. Added the Warn mode to ASR rules.
 5. Added INTERACTIVE Protection Level which uses ASR rules set to Warn.
-6. Added the <Info> button next to the Protection Levels buttons. It displays information about which 
-   settings are enabled in DEFAULT, HIGH, INTERACTIVE, and MAX Protection Levels.
+6. Added the <Info> button next to the Protection Levels buttons. It displays which settings are enabled in DEFAULT, HIGH, INTERACTIVE,
+   and MAX Protection Levels.
 7. Redesigned slightly the layout of the Exploit Guard section.
 8. Added support for Windows 11.
 9. Added support for event Id=1120. If the proper policy is applied, then this event can be logged by Windows.
-   If the user has applied manually this policy by registry tweak or GPO, then the events related to Id=1120 
-   will be also included in the "Defender Security Log".
-10.Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some 
+   If the user has manually applied this policy by registry tweak or GPO, then the events related to Id=1120 
+   will also be included in the "Defender Security Log".
+10. Added CFA setting BDMO = Block Disk Modifications Only - folders will not be protected, but some 
    important disk sectors will be still protected (Id = 1127).
 11. Corrected a minor bug related to displaying the empty log.
 
@@ -29,10 +32,10 @@ Version 3.0.0.1
 3. Removed event Id=5007 from Defender Security Log.
 
 Version 3.0.0.0
-1. Corrected a bug related to the error when "Defender Security" Log is empty.
-2. Removed the event Id=1117 from Defender Security Log.
+1. Corrected a bug related to the error when the "Defender Security" Log is empty.
+2. Removed the event Id=1117 from the Defender Security Log.
 3. Extended the maximal number of entries in the Log to 300.
-4. Extended the "Cloud Time Check Limit" in HIGH Protection Level from 10s to 20s. 
+4. Extended the "Cloud Time Check Limit" in the HIGH Protection Level from 10s to 20s. 
 5. Added DLL hijacking protection - 64-bit and 32-bit installers are wrapped into one installer by NSISS.
 6. Corrected some minor bugs.
 
@@ -41,7 +44,7 @@ Version 2.0.1.1
 2. Minor GUI improvements.
 
 Version 2.0.1.0
-The ConfigureDefender executables are now digitally signed with Certum Open Source Code Signing certificate.
+The ConfigureDefender executables are now digitally signed with a Certum Open Source Code Signing certificate.
 
 Version 2.0.0.1
 1. Added icon.
@@ -65,8 +68,8 @@ Added two new WD ASR rules:
 2. Block Adobe Reader from creating child processes
 
 Version 1.1.1.1
-The option 'Real-time Monitoring' was removed, because of the new Microsoft criteria of malware detection.
-With this option ConfigureDefender would be classified as a hack tool.
+The option 'Real-time Monitoring' was removed, because of the new Microsoft criteria for malware detection.
+With this option, ConfigureDefender would be classified as a hack tool.
 
 Version 1.0.1.1
 1. Corrected a minor bug related to unnecessary folder exclusion for the ASR mitigation that does not support
