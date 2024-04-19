@@ -23,7 +23,7 @@ https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/Micr
 
 
 ## Installation
-ConfigureDefender is a portable application, no installation is needed. Download and run the executable ConfigureDefender.exe - the application can be run both on Windows 32-bit and Windows 64-bit.
+ConfigureDefender is a portable application, no installation is needed. Download and run the executable ConfigureDefender.exe - the application can run both on Windows 32-bit and Windows 64-bit.
 
 ## Short program description
 ConfigureDefender utility is a small GUI application to view and configure important Defender settings on Windows 10/11 and Windows Server 2019+. It uses PowerShell cmdlets (with a few exceptions) to change the Windows Defender settings. Furthermore, the user can apply one of three pre-defined protection levels: DEFAULT, HIGH, INTERACTIVE, and MAX. Changing one of the protection levels requires a reboot to take effect.
