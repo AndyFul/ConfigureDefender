@@ -1,5 +1,5 @@
 Version 4.0.0.1 
-(new certificate July 2024) - no functional changes.
+New certificate (July 2024).
 Adjusted the code to work with Windows Hybrid Hardening.
 
 Version 4.0.0.0
