@@ -1,3 +1,7 @@
+Version 4.0.1.1 beta
+Added two new ASR rules.
+Some corrections in the help files and manual.
+
 Version 4.0.0.1 
 New certificate (July 2024).
 Adjusted the code to work with Windows Hybrid Hardening.
