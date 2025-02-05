@@ -1,4 +1,4 @@
-Version 4.0.1.1 beta
+Version 4.0.1.1 stable (the same as the latest beta)
 Added two new ASR rules.
 Some corrections in the help files and manual.
 
