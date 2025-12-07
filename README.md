@@ -1,6 +1,6 @@
 
 
-# ConfigureDefender stable version 4.0.1.1 - February 2025
+# ConfigureDefender stable version 4.1.0.0 - December 2025
 https://github.com/AndyFul/ConfigureDefender/raw/master/ConfigureDefender.exe
 
 ## Overview
