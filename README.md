@@ -17,7 +17,7 @@ https://medium.com/palantir/microsoft-defender-attack-surface-reduction-recommen
 
 https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction
 
-https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/bg-p/MicrosoftDefenderATPBlog/label-name/Demystifying%20ASR%20rules
+https://techcommunity.microsoft.com/tag/Demystifying%20ASR%20rules?nodeId=board%3AMicrosoftDefenderATPBlog
 
 
 ## Installation
