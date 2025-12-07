@@ -1,3 +1,7 @@
+Version 4.1.0.0 
+New certificate (November 2025).
+Improved anti-tampering.
+
 Version 4.0.1.1 stable (the same as the latest beta)
 Added two new ASR rules.
 Some corrections in the help files and manual.
@@ -89,3 +93,4 @@ and 'Controlled Folder Access' is set to Audit.
 Version 1.0.1.0
 Added ASR mitigations introduced in Windows ver. 1803.
 {"mode":"full","isActive":false}
+
